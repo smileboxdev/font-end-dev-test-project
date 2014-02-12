@@ -1,0 +1,88 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin-top: 41px;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+ol[role="menu"],
+ul[role="menu"] {
+	display: block;
+	list-style-type: none;
+}
+
+[role="menu"] [role="menuitem"] {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0;
+}
+
+[role="menu"] [role="menuitem"] > * {
+	padding: 10px 20px;
+}
+
+body > header  .expressions-logo {
+	background-image: url('../../../Images/logo.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 50px;
+	font-size: 0;
+	padding: 30px 0;
+}
+
+h1.expressions-logo  {
+	margin: 0;
+}
+
+body > header > nav {
+	border: 0 solid #999;
+	border-width: 1px 0;
+}
+
+body > header > nav  [role="menu"] {
+	text-align: center;
+}
+
+nav {
+	color: #777;
+}
+
+[role="menu"] :link,
+[role="menu"] :active {
+	text-decoration: none;
+	color: inherit;
+}
+
+ol[role="menu"] {
+	margin: 0;
+}
+
+.user-management-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 41px;
+
+	background-color: #555;
+	color: white;
+	
+	text-align: right;
+}
+
+.user-management-nav :link {
+	text-decoration: none;
+}
+
+.user-management-nav [role="menuitem"]:after {
+	content: "|";
+}
+
+.user-management-nav [role="menuitem"]:last-child:after {
+	content: "";
+}

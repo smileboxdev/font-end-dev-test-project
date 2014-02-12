@@ -1,0 +1,24 @@
+var items = {
+    "items": [
+        {
+            "href":"occasions.html",
+            "displayText":"Occasions"
+        },
+        {
+            "href":"cards.html",
+            "displayText":"Cards"
+        },
+        {
+            "href":"invitations.html",
+            "displayText":"Invitations"
+        },
+        {
+            "href":"announcements.html",
+            "displayText":"Announcements"
+        },
+        {
+            "href":"party-decor.html",
+            "displayText":"Party Decor"
+        }
+    ]
+}
